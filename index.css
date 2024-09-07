@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 0;
+}
+
+body, html {
+    margin: 20px;
+    padding: 0;
+    background-image: url('Glopo-1-1.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: courier new;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #64A9C4;
+    line-height: 0;
+    padding: 5px;
+    text-align: left;
+    text-color: #4F869C;
+    width: calc(100% - 100px);
+    margin: 0 auto;
+}
+
+
+h1 {
+    font-family: courier new;
+    color: #4F869C;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Center the nav */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    position: relative;
+    background-color: #83C7C6;
+    margin-right: 30px;
+    border-radius: 0;
+}
+
+nav ul li:hover {
+    background-color: #8CD4D2;
+}
+
+nav ul li ul {
+    position: absolute;
+    display: none;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+    z-index: 1;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    width: 100%;
+    float: none; /* Remove float */
+}
+
+nav ul li a {
+    display: block;
+    font-family: courier new;
+    color: #5D8C8B;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.title {
+    position: relative;
+    text-align: center;
+    font-family: courier new;
+    color: #222;
+}
+
+body table {
+    font-family: courier new;
+    color: #222;
+    line-height: 50px;
+}
+
+.content {
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    flex: 1;
+}
+
+footer {
+    text-align: left;
+    padding: 10px;
+    color: #222;
+    margin-top: auto;
+}
+
+footer a {
+    color: #fff;
+}
